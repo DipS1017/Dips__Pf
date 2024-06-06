@@ -3,7 +3,7 @@ import x from "../../assets/X_icon.svg";
 import github from "../../assets/github-142-svgrepo-com.svg";
 import gmail from "../../assets/icons8-gmail.svg";
 import linkedin from "../../assets/linkedin-svgrepo-com.svg";
-import { FormEvent, useEffect, useRef } from 'react';
+import { FormEvent, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 
