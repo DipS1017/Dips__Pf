@@ -1,7 +1,7 @@
 .Contact{
     display: block;
     margin: auto;
-    min-height: 60svh;
+    min-height: 80svh;
   
     padding: 0;
    
@@ -11,8 +11,9 @@
 }
 .Contact__Title{
     
-    font-size: var(--title-size);
-    font-weight: 500;
+    font-size: var(--title-size-Desktop);
+    font-weight: 300;
+    color: var(--font-color-Secondary);
     
   
 }
@@ -39,31 +40,57 @@ input{
     border: none;
     
     color:#f1eeee;
-    border-bottom: solid 1px #f1eeee;
+    border-bottom: solid 1px #66FDF0;
    
 }
 textarea{
     width: 100%;
     
     background: transparent;
-    font-size: 20px;
+    font-size: var(--font-size-Mobile);
     color:#f1eeee;
     outline: none;
     border: none;
         border-bottom: 1px solid #f1eeee;
       
 }
+.Contact__Img  {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    
+ 
+    gap: 20px;
+    flex-wrap: wrap;
+    }
+  .Contact__Img a{
+        display: inline;
+        width: 20%;
+    }
+    .Contact__Img  img{
+        
+       border-radius: 12px;
+       width: 50%;
+       
+      
+       
+      
+    }
+    .Contact h1{
+        font-size: larger;
+        padding-top: 1%;
+        color: var(--font-color-Secondary);
+    }
 
 .Form-Submit{
     margin-top: 5%;
-    width: 30%;
-    padding:0.5em ;
-    border-radius: 16px;
-    background-color:#edf2f2;
-    color: #064C55;
+    
+   
 }
-.Form-Submit:hover{
-    background-color:#aeb0b0;
+.farewell{
+    color: var(--font-color-Secondary);
+    font-size: var(--title-size-mobile);
+    padding-top: 5%;
 }
 @media (min-width:768px) {
 
@@ -78,6 +105,9 @@ textarea{
     
     
     }
+    input{
+        font-size: var(--font-size-Desktop);
+    }
     
     .Form-Submit{
         font-size: 20px;
@@ -86,5 +116,9 @@ textarea{
   
       
 }
-
+.farewell{
+    
+    font-size: var(--title-size-Desktop);
+   padding-bottom: 10%;
+}
 }
