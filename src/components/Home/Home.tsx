@@ -1,6 +1,7 @@
 
 import Typewriter from 'typewriter-effect';
 import "./home.css"
+import cv from ".././../assets/Dipesh-Shrestha-cv.pdf"
 function Home() {
   return (
     <section className="home__section" id="home">
@@ -38,7 +39,7 @@ function Home() {
 
   }}
 /></aside>
-<button  className="Resume">Resume</button>
+<a href={cv}><button  className="Resume">Resume</button></a>
     </article>
       
       
