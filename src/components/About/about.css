@@ -1,0 +1,65 @@
+.about{
+   
+    
+ 
+    min-height: 80svh;
+   padding: 3%;
+   text-align: center;
+    position: relative;
+    border-bottom: 1px dashed #66FDF0;
+   
+}
+.About__Title{
+  color: #66FDF0;
+    font-size: 2.5rem;
+    font-weight: 400;
+    padding: 1%;
+  
+  
+
+}
+.container__grid{
+   padding: 1%;
+
+}
+.crab{
+    
+   width: 40%;
+   
+  
+   
+  
+}
+.About__main{
+    font-size: 18px;
+    display: block;
+    text-align: left;
+    padding: 2%;
+    
+}
+
+@media (min-width:768px) {
+    .about{
+        min-height: 70svh;
+
+    }
+    .About__Sub{
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .container__grid{
+       display: flex;
+       
+       padding:2%;
+    }
+    .crab{
+    width: 90%;
+  
+ 
+}
+.About__main{
+padding: 1%;
+font-size: 20px;
+}
+
+}

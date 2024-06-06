@@ -1,0 +1,124 @@
+.home__section{
+  
+  min-height: 100svh;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+   
+   border-bottom: #66FDF0 1px dashed;
+}
+  
+   
+.Greet-Main{
+    position: absolute;
+    top: -60%;
+    left: 2%;
+    color: #F9F6EE;
+    font-weight: 300;
+    font-size: 3rem;
+}
+
+.Intro-Main{
+    font-size: 5rem;
+    margin-bottom: 10%;
+    font-weight: 500;
+    color: #66FDF0;
+    font-family: 'montserrat';
+   position: relative;
+   
+}
+
+.Title{
+    font-size: 0.4em;
+    font-weight: 100;
+    color: #F9F6EE;
+ border-bottom: 1px #F9F6EE;
+position: absolute;
+top:85%;
+right: 10%;
+}
+.Resume{
+    position: absolute;
+    top: 180%;
+    left: 40%;
+    
+
+}
+.Resume:hover{
+    background-color: #66FDF0;
+    color: black;
+}
+@media (max-width:1200px)and (min-width:769px) {
+  
+    
+    .Intro-Main{
+        
+        font-size:4.5rem;
+       
+       
+       
+    }
+    .Greet-Main{
+        top: -30%;
+        font-size:0.4em ;
+    }
+    .Title{
+        margin-top: 12px;
+        
+        font-size: 0.4em;
+    }
+  .Resume{
+    font-size: 1.5rem;
+
+  }
+}
+@media (max-width:768px) and (min-width:601px){
+  
+    
+    .Intro-Main{
+        
+        font-size:4rem;
+       
+       
+       
+    }
+    .Greet-Main{
+        top: -30%;
+        font-size:0.4em ;
+    }
+    .Title{
+        margin-top: 15px;
+        font-size: 0.4em;
+    }
+
+}
+@media (max-width:600px) {
+
+    .Intro-Main{
+        
+        font-size:2em;
+        padding-bottom: 0.5em;
+       
+    }
+    .Greet-Main{
+        top: -50%;
+        left: -2%;
+        font-size: 0.7em;
+        
+    }
+    .Title{
+        font-size:0.7em;
+    }
+    .Intro-Start{
+        margin-bottom: 13%;
+        padding-right: 8px;
+        font-size: 1.5rem;
+    }
+    .Resume{
+        left: 30%;
+    }
+}

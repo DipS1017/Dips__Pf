@@ -1,0 +1,90 @@
+.Contact{
+    display: block;
+    margin: auto;
+    min-height: 60svh;
+  
+    padding: 0;
+   
+   padding-top: 1%;
+   text-align: center;
+    position: relative;
+}
+.Contact__Title{
+    
+    font-size: 2.5rem;
+    font-weight: 500;
+    
+  
+}
+.Contact__form{
+    padding: 2rem;
+    
+}
+.Contact__form label{
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+    text-align: left;
+  padding: 2%  2%;
+  padding-left: 0;
+
+
+}
+
+input{
+    width: 100%;
+    font-size: 20px;
+    background: transparent;
+    outline: none;
+    border: none;
+    
+    color:#f1eeee;
+    border-bottom: solid 1px #f1eeee;
+   
+}
+textarea{
+    width: 100%;
+    
+    background: transparent;
+    font-size: 20px;
+    color:#f1eeee;
+    outline: none;
+    border: none;
+        border-bottom: 1px solid #f1eeee;
+      
+}
+
+.Form-Submit{
+    margin-top: 5%;
+    width: 30%;
+    padding:0.5em ;
+    border-radius: 16px;
+    background-color:#edf2f2;
+    color: #064C55;
+}
+.Form-Submit:hover{
+    background-color:#aeb0b0;
+}
+@media (min-width:768px) {
+
+    .Contact__form label{
+        display: inline-block;
+        width: 100%;
+        font-size: 24px;
+        font-weight: 500;
+        text-align: left;
+      padding: 2%  2%;
+      padding-left: 0;
+    
+    
+    }
+    
+    .Form-Submit{
+        font-size: 20px;
+    width: 20%
+  
+  
+      
+}
+
+}

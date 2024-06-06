@@ -1,0 +1,154 @@
+header{
+  display: flex;
+ width: 100%;
+ top: 0;
+ position: sticky;
+  justify-content: space-between;
+z-index: 99;
+  
+  color: #F9F6EE;
+  
+  backdrop-filter: blur(9px);
+  border-bottom: #66FDF0 1px solid;
+}
+
+.nav__logo{
+  padding: 1em;
+  font-weight: 500;
+
+font-size: 28px;
+cursor: pointer;
+}
+.nav__logo:hover{
+  color: rgb(181, 181, 181);
+}
+
+.nav__ul{
+  display: flex;
+  
+
+  
+   
+  text-transform: uppercase;
+  
+  padding-left: 0;
+  
+  list-style: none;  
+  
+}
+.nav__ul li {
+ 
+ padding: 1em;
+ cursor: pointer;
+ 
+  
+}
+
+
+.nav__ul li:hover{
+  color: rgb(181, 181, 181);
+ 
+}
+.nav__ul li::before{
+  content: '';
+  position: absolute;
+  bottom:30px ;
+ 
+  width: 0%;
+  height: 3px;
+  background-color:#eff7f8 ;
+  transition: all .5s;
+}
+.nav__ul li:hover::before{
+  width: 5%;
+}
+
+.nav__ul li a{
+  font-size: 20px;
+  padding: 2em;
+  margin:-2em;
+}
+.toggle-button{
+  position: absolute;
+  top: 1rem;
+  right:1rem;
+  display:none;
+  background: #000000;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 35px;
+  height: 30px;
+}
+.toggle-button .bar{
+  height: 2px;
+  width: 90%;
+  
+  padding: 1px;
+  margin: 1px;
+  background-color: #ffffff;
+  border-radius:16px ;
+}
+@media (max-width:768px) {
+.toggle-button{
+  display: flex;
+}
+nav{
+  
+  width: 100%;
+
+  
+}
+.nav__logo{
+  font-size: 16px;
+  padding-top: 1rem;
+  padding-bottom:1rem ;
+  padding-left: 1rem;
+}
+.navBar{
+  display: none;
+  
+  
+}
+header{
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 0;
+}
+.nav__ul {
+  width: 100%;
+ 
+ padding-top:0;
+ padding-bottom: 0;
+ margin-bottom: 0;
+  flex-direction: column;
+  
+}
+.nav__ul li{
+  text-align: center;
+  border-bottom: solid #a3aaab;
+  padding :1rem 0 1rem 0; 
+  margin: 0;
+  
+}
+.nav__ul li:hover{
+ content: none;
+}.nav__ul li::before{
+
+ content: none;
+}
+.nav__ul li:hover::before{
+width: 0;
+}
+.navBar.open{
+  display: flex;
+  
+  border: none;
+  
+  
+}
+.nav__ul, .navBar, .toggle-button {
+  outline: none;
+  border: none;
+}
+}
+  
