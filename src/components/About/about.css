@@ -11,7 +11,7 @@
 }
 .About__Title{
   color: #66FDF0;
-    font-size: 2.5rem;
+    font-size: var(--title-size);
     font-weight: 400;
     padding: 1%;
   
@@ -22,16 +22,25 @@
    padding: 1%;
 
 }
-.crab{
+.Skill__Img{
+display: flex;
+justify-content: center;
+
+
+gap: 20px;
+flex-wrap: wrap;
+}
+.Skill__Img img{
     
-   width: 40%;
+   border-radius: 12px;
+   width: 20%;
    
   
    
   
 }
 .About__main{
-    font-size: 18px;
+    font-size: var(--font-size-Mobile);
     display: block;
     text-align: left;
     padding: 2%;
@@ -41,10 +50,14 @@
 @media (min-width:768px) {
     .about{
         min-height: 70svh;
+        
 
     }
+    .About__Title{
+        font-size: var(--title-size-Desktop);
+    }
     .About__Sub{
-        font-size: 24px;
+        font-size: var(--font-size-Desktop);
         font-weight: 500;
     }
     .container__grid{
@@ -52,6 +65,18 @@
        
        padding:2%;
     }
+    .Skill__Img{
+        gap: 30px;
+    }
+    .Skill__Img img{
+    
+        
+        width: 10%;
+        
+       
+        
+       
+     }
     .crab{
     width: 90%;
   
@@ -59,7 +84,8 @@
 }
 .About__main{
 padding: 1%;
-font-size: 20px;
+font-size: var(--font-size-Desktop);
+font-weight: 100;
 }
 
 }

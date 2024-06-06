@@ -1,0 +1,103 @@
+.Project{
+   
+    
+ 
+    min-height: 80svh;
+   padding: 3%;
+   text-align: center;
+    position: relative;
+    border-bottom: 1px dashed #66FDF0;
+   
+}
+.Project__Title{
+  color: #66FDF0;
+    font-size: var(--title-size);
+    font-weight: 400;
+    padding: 1%;
+  
+}
+
+.Project__Container{
+   padding: 1%;
+   overflow: hidden;
+   padding-top: 5%;
+
+}
+.Project__Img img{
+width: 100%;
+border-radius: 12px;
+
+}
+
+.Project__main{
+    font-size: var(--title-size-Mobile);
+    display: block;
+    text-align: left;
+    padding: 2%;
+    
+}
+.Project__Button{
+display: flex;
+gap: 20px;
+
+}
+
+.Project__Sub{
+    font-size: var(--font-size-Mobile);
+    font-weight: 100;
+}
+.Project__Sub2{
+    font-size: var(--font-size-Mobile);
+    color: var(--font-color-Secondary);
+    font-weight: 100;
+    text-transform:capitalize;
+}
+
+@media (min-width:768px) {
+    .Project{
+        min-height: 70svh;
+        font-size: var(--font-size-Desktop);
+        
+    }
+    .Project__Title{
+        font-size: var(--title-size-Desktop);
+    }
+    .Project__Sub{
+        font-size: var(--font-size-Desktop);
+        font-weight: 200;
+    }
+    .Project__Container{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 20px;
+    }
+    .Project__Img img{
+       object-fit: cover;
+ 
+        width: 100%;
+        height: 110%;
+       
+    }
+   .Project__Sub2{
+    color: var(--font-color-Secondary);
+   font-size: var(--font-size-Desktop);
+   
+   }
+  
+    
+.Project__main{
+padding: 1%;
+font-size: var(--primary-size-Desktop);
+}
+
+}
+@media (min-width:768px) and (max-width:1200px) {
+
+    .Project__Img img{
+       object-fit: cover;
+ 
+        width: 100%;
+        height: 70%;
+       
+    }
+}

@@ -11,7 +11,7 @@
 }
 .Contact__Title{
     
-    font-size: 2.5rem;
+    font-size: var(--title-size);
     font-weight: 500;
     
   
@@ -23,7 +23,7 @@
 .Contact__form label{
     display: inline-block;
     width: 100%;
-    font-size: 18px;
+    font-size: var(--font-size-Mobile);
     text-align: left;
   padding: 2%  2%;
   padding-left: 0;
@@ -33,7 +33,7 @@
 
 input{
     width: 100%;
-    font-size: 20px;
+    font-size: var(--font-size-Mobile);
     background: transparent;
     outline: none;
     border: none;

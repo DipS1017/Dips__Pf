@@ -32,9 +32,13 @@
 :root {
  box-sizing: border-box;
   font-family: "Poppins","montserrat";
-  
- 
-  
+  --title-size-Mobile:20px;
+  --title-size-Desktop:32px;
+  --font-size-Desktop:18px;
+  --font-size-Mobile:12px;
+  --font-color-Primary:#F9F6EE ;
+  --font-color-Secondary:#66FDF0;
+  --primary-size-Desktop:24px;
   background-color: #0B0D11;
 
 }
@@ -51,14 +55,29 @@ body {
 }
 
 button{
-  font-size: 1.2rem;
-    padding: 16px 24px;
-    font-weight: 300;
-    border-radius:8px;
+  
+   padding:1rem 2rem;
+    font-size: 24px;
+    border-radius:12px;
     border-color: #66FDF0;
     color: #66FDF0;
     background-color: transparent;
 }
+
+@media (max-width:768px) {
+  button{
+  
+    padding:0.5rem 1rem;
+     font-size: 16px;
+     
+ }
+}
+button:hover{
+  background-color: #66FDF0;
+  color: #0B0D11;
+}
+
+
 .RLoader {
   position: absolute;
   top: 0;

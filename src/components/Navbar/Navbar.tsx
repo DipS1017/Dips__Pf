@@ -9,7 +9,7 @@ function Navbar() {
   useEffect(() => {
     const updateOffset = () => {
       if (window.innerWidth < 768) {
-        setOffset(-85); 
+        setOffset(-350); 
       } else {
         setOffset(-100); 
       }
@@ -49,7 +49,7 @@ function Navbar() {
           
          
           <li>
-            <Link to="design" spy={true} smooth={true} offset={offset} duration={500} onClick={() => setOpen(false)}>
+            <Link to="Project" spy={true} smooth={true} offset={offset} duration={500} onClick={() => setOpen(false)}>
               Project
             </Link>
           </li>

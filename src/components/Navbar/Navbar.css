@@ -73,7 +73,7 @@ cursor: pointer;
   top: 1rem;
   right:1rem;
   display:none;
-  background: #000000;
+  background: transparent;
   flex-direction: column;
   justify-content: space-between;
   width: 35px;

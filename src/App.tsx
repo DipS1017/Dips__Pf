@@ -7,6 +7,7 @@ import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import { useEffect, useState } from "react";
 import { ClipLoader } from "react-spinners";
+import Project from "./components/Project/Project";
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
           <Navbar />
           <Home />
           <About />
+          <Project/>
           
           
           <Contact />
