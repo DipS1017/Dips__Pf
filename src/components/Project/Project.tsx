@@ -4,6 +4,7 @@
 import appointment from "../../assets/appointment.png"
 import ecommerce from "../../assets/ecommerce.jpg"
 import rent from "../../assets/rentcalculator.jpg"
+import frontend from "../../assets/Screenshot 2024-06-26 095747.png"
 
 
 
@@ -15,7 +16,27 @@ function Project() {
   return (
     <section className="Project">
       <aside className="Project__Title">PROJECT</aside>
+         <article className="Project__Container">
+      <article className="Project__Img">
+          <img  src={frontend}/>
+       </article>
+        <article className="Project__main"> Front-End Codavatar
+   
+         <p className="Project__Sub"> Built a front-end website from a professional figma design in given time frame , added own responsive design.</p> 
+         
+         <p className="Project__Sub2">Html JavaScript Css Scss Vite</p>
+         <aside className="Project__Button">
+        <a href="https://github.com/DipS1017/front-end-challenge" target="_blank"><button>Source Code</button></a>
+        <a href="https://front-end-challenge-sepia.vercel.app/" target="_blank"><button>Demo</button></a>
+         </aside>
+ 
+        </article>
+       
+      </article>
+
+
       <article className="Project__Container">
+        
       <article className="Project__Img">
           <img  src={appointment}/>
        </article>
