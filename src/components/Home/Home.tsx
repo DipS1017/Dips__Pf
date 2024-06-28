@@ -1,7 +1,7 @@
 
 import Typewriter from 'typewriter-effect';
 import "./home.css"
-import cv from ".././../assets/Dipesh-Shrestha-cv.pdf"
+import cv from ".././../assets/DipeshShresthaCV.pdf"
 function Home() {
   return (
     <section className="home__section" id="home">
