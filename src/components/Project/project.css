@@ -6,11 +6,12 @@
    padding: 3%;
    text-align: center;
     position: relative;
-    border-bottom: 1px dashed #66FDF0;
+    border-bottom: 1px dashed var(--border-color);
    
 }
 .Project__Title{
-  color: #66FDF0;
+
+     color:var(--font-color-Title);    
     font-size: var(--title-size);
     font-weight: 400;
     padding: 1%;
@@ -48,7 +49,7 @@ gap: 20px;
 }
 .Project__Sub2{
     font-size: var(--font-size-Mobile);
-    color: var(--font-color-Secondary);
+    color: var(--font-color-Title2);
     font-weight: 100;
     text-transform:capitalize;
 }
@@ -65,6 +66,7 @@ gap: 20px;
     .Project__Sub{
         font-size: var(--font-size-Desktop);
         font-weight: 200;
+    color: var(--font-color-Title);
     }
     .Project__Container{
         display: grid;
@@ -79,7 +81,7 @@ gap: 20px;
        
     }
    .Project__Sub2{
-    color: var(--font-color-Secondary);
+    color: var(--border-color1);
    font-size: var(--font-size-Desktop);
    
    }

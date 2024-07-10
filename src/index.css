@@ -36,10 +36,16 @@
   --title-size-Desktop:32px;
   --font-size-Desktop:18px;
   --font-size-Mobile:12px;
-  --font-color-Primary:#F9F6EE ;
-  --font-color-Secondary:#66FDF0;
+  --font-color-Title1:#F5A97F;
+  --font-color-Secondary:#CAD3F5;
+  --font-color-Title:#7DC4E4;
+  --font-color-Primary:#EED49F;
+  --border-color:#C6a0f6;
+  --border-color2:#A6DA95;
   --primary-size-Desktop:24px;
-  background-color: #0B0D11;
+  --primary-bg-Color:#24273A;
+  --border-color1:#ED8796;
+  background-color: var(--primary-bg-Color);
 
 }
 /* 66FDF0 */
@@ -48,7 +54,7 @@ body {
   padding-left:10% ;
   padding-right:10% ;
   font-size: 16px;
- color: #F9F6EE;
+ color: var(--font-color-Secondary);
   padding-top: 0;
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -59,8 +65,8 @@ button{
    padding:1rem 2rem;
     font-size: 24px;
     border-radius:12px;
-    border-color: #66FDF0;
-    color: #66FDF0;
+    border-color: var(--border-color);
+  color: var(--font-color-Primary);
     background-color: transparent;
 }
 
@@ -73,7 +79,7 @@ button{
  }
 }
 button:hover{
-  background-color: #66FDF0;
+  background-color: var(--font-color-Title);
   color: #0B0D11;
 }
 
@@ -112,7 +118,7 @@ button:hover{
   animation: rotation 0.5s linear infinite reverse;
 }
 ::placeholder {
-  color: #66FDF0;
+  color: var(--font-color-Primary);
   opacity: 1; /* Firefox */
 }
 @keyframes rotation {

@@ -13,8 +13,7 @@
     
     font-size: var(--title-size-Desktop);
     font-weight: 300;
-    color: var(--font-color-Secondary);
-    
+     color:var(--font-color-Title);    
   
 }
 .Contact__form{
@@ -39,8 +38,9 @@ input{
     outline: none;
     border: none;
     
-    color:#f1eeee;
-    border-bottom: solid 1px #66FDF0;
+    color:var(--font-color-Title);
+
+  border-bottom: var(--border-color) 1px solid;
    
 }
 textarea{
@@ -51,7 +51,9 @@ textarea{
     color:#f1eeee;
     outline: none;
     border: none;
-        border-bottom: 1px solid #66FDF0;
+   
+  border-bottom: var(--border-color) 1px solid;
+
       
 }
 .Contact__Img  {

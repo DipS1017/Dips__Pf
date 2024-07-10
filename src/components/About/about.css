@@ -6,11 +6,12 @@
    padding: 3%;
    text-align: center;
     position: relative;
-    border-bottom: 1px dashed #66FDF0;
+
+  border-bottom: var(--border-color) 1px solid;
    
 }
 .About__Title{
-  color: #66FDF0;
+  color:var(--font-color-Title);
     font-size: var(--title-size);
     font-weight: 400;
     padding: 1%;

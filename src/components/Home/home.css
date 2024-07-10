@@ -9,7 +9,8 @@
     
     
    
-   border-bottom: #66FDF0 1px dashed;
+
+  border-bottom: var(--border-color) 1px solid;
 }
   
    
@@ -17,7 +18,7 @@
     position: absolute;
     top: -60%;
     left: 2%;
-    color: #F9F6EE;
+    color: var(--border-color2);
     font-weight: 300;
     font-size: 3rem;
 }
@@ -26,7 +27,7 @@
     font-size: 5rem;
     margin-bottom: 10%;
     font-weight: 500;
-    color: #66FDF0;
+    color:var(--font-color-Secondary);
     font-family: 'montserrat';
    position: relative;
    
@@ -35,7 +36,7 @@
 .Title{
     font-size: 0.4em;
     font-weight: 100;
-    color: #F9F6EE;
+    color:var(--font-color-Primary);
  border-bottom: 1px #F9F6EE;
 position: absolute;
 top:85%;
@@ -49,7 +50,7 @@ right: 10%;
 
 }
 .Resume:hover{
-    background-color: #66FDF0;
+    background-color: var(--font-color-Primary);
     color: black;
 }
 @media (max-width:1200px)and (min-width:769px) {
