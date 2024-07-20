@@ -31,9 +31,6 @@ function Home() {
       .typeString('Ui/Ux Designer')
       .pauseFor(2500)
       .deleteAll()
-      .typeString('Graphic Designer')
-      .pauseFor(2500)
-      .deleteAll()
       .start();
       
 
